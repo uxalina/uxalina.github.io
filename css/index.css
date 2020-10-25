@@ -1,0 +1,60 @@
+@import "common.css";
+@import "navbar.css";
+
+.main-pic-container {
+    position: relative;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .proj-container:nth-child(odd) {
+        padding-right: 50px;
+    }
+    .proj-container:nth-child(even) {
+        padding-left: 50px;
+        margin-top: -20px;
+    }
+}
+
+.proj-container>a {
+    display: block;
+    color: black;
+}
+
+.proj-container:focus>a,
+.proj-container:active>a,
+.proj-container:hover>a {
+    color: black;
+    text-decoration: none;
+}
+
+.proj-container figure,
+.proj-container img {
+    transition: all 0.5s ease;
+}
+
+.proj-container:focus img,
+.proj-container:active img,
+.proj-container:hover img {
+    transform: scale(1.1);
+}
+
+.proj-container:hover figure {
+    transform: scale(0.97);
+}
+
+.image {
+    width: 100%;
+    line-height: 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .b-primary, .b-secondary {
+        width: 200px;
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,9 @@
+@import "common.css";
+@import "navbar.css";
+
+/* XS - SM */
+@media (max-width: 767.98px) {
+    .fluid-block {
+        width: 100%;
+    }
+}
