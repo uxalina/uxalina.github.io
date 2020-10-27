@@ -53,7 +53,7 @@
 }
 
 @media (min-width: 768px) {
-    .b-primary, .b-secondary {
+    .b-primary.fix, .b-secondary.fix {
         width: 200px;
         margin-right: 30px;
     }
