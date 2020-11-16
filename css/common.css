@@ -607,7 +607,7 @@ img.stretch {
 .b-primary:hover,.b-primary:active,.b-primary:focus {
     box-shadow: none;
     outline: none;
-    background: #161616;
+    background: #202731;
     color: white;
 }
 
@@ -620,4 +620,8 @@ img.stretch {
     box-shadow: none;
     outline: none;
     background: #EBEDF0;
+}
+
+.a-btn:hover,.a-btn:active,.a-btn:focus {
+    text-decoration: none;
 }
