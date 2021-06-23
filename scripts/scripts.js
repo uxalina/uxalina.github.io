@@ -41,14 +41,9 @@ $(function () {
 });
 
 function onEvent(category, action) {
-    gtag('event', action, {
-        'event_category': category
-    });
+
 }
 
 function onEvent(category, action, label) {
-    gtag('event', action, {
-        'event_category': category,
-        'event_label': label
-    });
+
 }
